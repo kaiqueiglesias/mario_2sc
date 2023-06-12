@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pag_01_fundo.jpg);
+    color: rgb(red, green, blue);
+    
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+@font-face {
+
+font-family: 'MARIO';
+src: url(mariofont.ttf) ;
+}
+
+h1 {
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-family: MARIO;
+    font-size: 230%;
+}
+h2{
+    
+    color: white;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    height: auto;
+    width: 155px;
+    border-radius: 25px;
+}
+
+img:hover {
+    width: 180px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50px;
+    padding-top: 50px;
+}
+p{
+    margin: 15px;
+    color: white;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+}
+
+.ajuda{
+    margin: 5px;
+}
+
+h3{
+    color: white;
+    font-size: 180%;
+    font-family: MARIO;
+}
+.bt img{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    object-fit: cover;
+    max-width: auto;
+    max-height: auto;
+    width: 5%;
+    height: 5%;
+}
